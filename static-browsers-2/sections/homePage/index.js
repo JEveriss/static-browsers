@@ -29,7 +29,6 @@ const HomePage = () => {
         <p className="desktopVsMobileSourceDetail greyText">
           {data2.desktopVsMobileSourceDetail}
         </p>
-        <div id="AGrade" />
       </ChartWrapper>
     </HomeWrapper>
   );

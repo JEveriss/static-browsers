@@ -1,14 +1,14 @@
 import React from "react";
 import { NavWrapper } from "./navBar.style";
 import Image from "next/image";
-import heroLogo from "../../images/383Logo.png"
-// import Glossary from "../utils/glossary";
+import heroLogo from "../../images/383Logo.png";
+// import Glossary from "../../components/glossary";
 import data from "../../data/data.json";
 
 const data2 = data[0].acf.navBar;
 
 const NavBar = () => {
-  console.log(data2)
+  console.log(data[0]);
   return (
     <NavWrapper>
       <div>
@@ -26,7 +26,7 @@ const NavBar = () => {
           <a onClick={actions.theme.toggleGlossary}>Glossary</a>
           {state.theme.isGlossaryVisible && <Glossary />}
         </> */}
-        Glossary
+        {/* <Glossary /> */}
       </div>
     </NavWrapper>
   );
