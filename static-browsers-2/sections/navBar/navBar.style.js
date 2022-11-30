@@ -28,6 +28,7 @@ export const NavWrapper = styled.nav`
   }
   .hide {
     display: flex;
+    position: relative;
     z-index: 6;
     a {
       overflow: hidden;

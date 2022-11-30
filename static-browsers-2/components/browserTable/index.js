@@ -16,7 +16,7 @@ const BrowserTable = () => {
           return (
             <div className="browserCard" key={`browser${index}`}>
               {" "}
-              {/* <BrowserImg src={browser.browserIcon} /> */}
+              <BrowserImg src={browser.browserIcon} />
               <p>{browser.browserName}</p>
               {browser.percentageBreakdown && (
                 <p className="browserPercentage">
