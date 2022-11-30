@@ -1,0 +1,528 @@
+[
+  {
+    "id": 267,
+    "date": "2022-09-22T14:49:22",
+    "date_gmt": "2022-09-22T13:49:22",
+    "guid": {},
+    "modified": "2022-10-14T15:46:55",
+    "modified_gmt": "2022-10-14T14:46:55",
+    "slug": "homepage",
+    "status": "publish",
+    "type": "post",
+    "link": "http://mywordpress.local/homepage/267/",
+    "title": {},
+    "content": {},
+    "excerpt": {},
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "acf": {
+      "title": "Browser Compatibility",
+      "heroImage": "http://mywordpress.local/wp-content/uploads/2022/09/heroBrowser.png",
+      "logo": "http://mywordpress.local/wp-content/uploads/2022/09/383Logo.png",
+      "icon": "http://mywordpress.local/wp-content/uploads/2022/09/browsingExample.png",
+      "suptitle": "A guide to",
+      "heroParagraph1": "At 383 we aim to provide the best possible web browsing experience for you and your clients. Web standards are in a state of constant flux, making it extremely important that we understand real world browser usage.",
+      "heroParagraph2": "This is crucial to informing our level of support for older browsers, and ensuring that the most time possible is spent on creating great experiences for the greater majority of users.",
+      "browserUsageTitle": "Popular Browsers",
+      "browserUsageParagraph1": "Looking at the breakdown below we can see that the landscape is dominated by four main vendors in Google, Microsoft, Mozilla and Apple.",
+      "browserUsageTable": [
+        {
+          "browserName": "Chrome",
+          "browserIcon": "http://mywordpress.local/wp-content/uploads/2022/09/chrome.png",
+          "percentageBreakdown": "50.86"
+        },
+        {
+          "browserName": "Safari",
+          "browserIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+          "percentageBreakdown": "29.94"
+        },
+        {
+          "browserName": "Edge",
+          "browserIcon": "http://mywordpress.local/wp-content/uploads/2022/09/edge.png",
+          "percentageBreakdown": "9.44"
+        },
+        {
+          "browserName": "Samsung",
+          "browserIcon": "http://mywordpress.local/wp-content/uploads/2022/09/samsung-1.png",
+          "percentageBreakdown": "3.58"
+        },
+        {
+          "browserName": "Firefox",
+          "browserIcon": "http://mywordpress.local/wp-content/uploads/2022/09/firefox-1.png",
+          "percentageBreakdown": "2.83"
+        }
+      ],
+      "browserUsageSourceLink": {
+        "title": "https://gs.statcounter.com/browser-market-share/all/united-kingdom/2021",
+        "url": "https://gs.statcounter.com/browser-market-share/all/united-kingdom/2021",
+        "target": ""
+      },
+      "desktopVsMobileTitle": "Desktop Vs Mobile",
+      "desktopVsMobileTable": [
+        {
+          "column1Title": "Desktop",
+          "column1Percentage": "51.96",
+          "column2Title": "Mobile",
+          "column2Percentage": "48.04"
+        }
+      ],
+      "desktopVsMobileSourceDetail": "Stats come from a sample of 383's top performing websites in Jan 2017",
+      "desktopVsMobileParagraph1": "The split between page views from Mobile vs. Desktop is another key indicator of the current state of user experiences that may affect the way we design and build our products.",
+      "browserUsageSourceInfo": "All stats represent UK web browser usage in Jan 2018 - Source:",
+      "aGradeSupportTableMobile": {
+        "tableHeadingIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobileWhite.png",
+        "columnHeadingLeft": "Mobile Browsers",
+        "columnDataLeft": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/chrome.png",
+            "columnDataText": "Chrome Mobile"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/samsung-1.png",
+            "columnDataText": "Samsung Internet"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+            "columnDataText": "Safari iOS11"
+          }
+        ],
+        "columnHeadingRight": "Mobile Devices",
+        "columnDataRight": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "iPhone 8+"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "iPhone 5s"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "Google Pixel"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/tablet.png",
+            "columnDataText": "iPad & iPad mini"
+          }
+        ]
+      },
+      "aGradeSupportTableDesktop": {
+        "tableHeadingIcon": "http://mywordpress.local/wp-content/uploads/2022/09/desktopWhite.png",
+        "columnHeadingLeft": "Desktop Browsers",
+        "columnDataLeft": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/chrome.png",
+            "columnDataText": "Chrome "
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+            "columnDataText": "Safari "
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/edge.png",
+            "columnDataText": "Edge"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/firefox-1.png",
+            "columnDataText": "Firefox"
+          }
+        ],
+        "columnHeadingRight": "Desktop Devices",
+        "columnDataRight": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Windows 10 Laptop"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Windows 8 Laptop"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Macbook"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/desktop.png",
+            "columnDataText": "iMac"
+          }
+        ]
+      },
+      "bGradeSupportTableDesktop": {
+        "tableHeadingIcon": "http://mywordpress.local/wp-content/uploads/2022/09/desktopWhite.png",
+        "columnHeadingLeft": "Desktop Browsers",
+        "columnDataLeft": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/chrome.png",
+            "columnDataText": "Chrome"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+            "columnDataText": "Safari"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/edge.png",
+            "columnDataText": "Edge"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/firefox-1.png",
+            "columnDataText": "Firefox"
+          }
+        ],
+        "columnHeadingRight": "Desktop Devices",
+        "columnDataRight": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Windows 10 Laptop"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Windows 8 Laptop"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Macbook"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/desktop.png",
+            "columnDataText": "iMac"
+          }
+        ]
+      },
+      "bGradeSupportTableMobile": {
+        "tableHeadingIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobileWhite.png",
+        "columnHeadingLeft": "Mobile Browsers",
+        "columnDataLeft": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+            "columnDataText": "Safari Mobile"
+          }
+        ],
+        "columnHeadingRight": "Mobile Devices",
+        "columnDataRight": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "iPhone 5s"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "Nexus 5"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/tablet.png",
+            "columnDataText": "Nexus 7 Tablet"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/tablet.png",
+            "columnDataText": "Amazon Fire Tablet"
+          }
+        ]
+      },
+      "cGradeSupportTableDesktop": {
+        "tableHeadingIcon": "http://mywordpress.local/wp-content/uploads/2022/09/desktopWhite.png",
+        "columnHeadingLeft": "Desktop Browsers",
+        "columnDataLeft": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+            "columnDataText": "Safari"
+          }
+        ],
+        "columnHeadingRight": "Desktop Devices",
+        "columnDataRight": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/laptop.png",
+            "columnDataText": "Windows 7 Laptop"
+          }
+        ]
+      },
+      "cGradeSupportTableMobile": {
+        "tableHeadingIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobileWhite.png",
+        "columnHeadingLeft": "Mobile Browsers",
+        "columnDataLeft": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/safari.png",
+            "columnDataText": "Safari Mobile iOS 6"
+          }
+        ],
+        "columnHeadingRight": "Mobile Devices",
+        "columnDataRight": [
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "Samsung Galaxy S3"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/mobile.png",
+            "columnDataText": "iPhone 3GS"
+          },
+          {
+            "columnDataIcon": "http://mywordpress.local/wp-content/uploads/2022/09/tablet.png",
+            "columnDataText": "Samsung Galaxy Tab"
+          }
+        ]
+      },
+      "aGradeSupportDetails": {
+        "giantLetterGrade": {
+          "letterGrade": "A",
+          "gradeSubtitle": "Grade",
+          "gradeFooter": "Support"
+        },
+        "percentageCoverage": {
+          "coverageHeading": "More than",
+          "percentageCoverage": "90%",
+          "coverageSubtitle": "UK Coverage",
+          "coverageFooter": "(Jan 2017)"
+        },
+        "experienceParagraph": {
+          "experienceDescription": "Best possible browsing experience",
+          "experienceBulletPoints": [
+            {
+              "bulletPoint": "All described features and content present"
+            },
+            {
+              "bulletPoint": "Optimised for best possible experience and speed"
+            },
+            {
+              "bulletPoint": "CSS used for animations/transforms where appropriate"
+            },
+            {
+              "bulletPoint": "No layout/JavaScript errors"
+            },
+            {
+              "bulletPoint": "Fully responsive"
+            }
+          ]
+        }
+      },
+      "bGradeSupportDetails": {
+        "giantLetterGrade": {
+          "letterGrade": "B",
+          "gradeSubtitle": "Grade",
+          "gradeFooter": "Support"
+        },
+        "percentageCoverage": {
+          "coverageHeading": "Approx",
+          "percentageCoverage": "07%",
+          "coverageSubtitle": "UK Coverage",
+          "coverageFooter": "(July 2015)"
+        },
+        "experienceParagraph": {
+          "experienceDescription": "Generally Good Experience",
+          "experienceBulletPoints": [
+            {
+              "bulletPoint": "All described features and content present"
+            },
+            {
+              "bulletPoint": "Some progressively enhanced features (such as css transitions/rounded corners may not work). Where this is the case, the site will fall back appropriately"
+            },
+            {
+              "bulletPoint": "On the whole, layout will be consistent with the \"A\" experience, but there may be rare instances where this is not possible"
+            },
+            {
+              "bulletPoint": "Client interactions may be slower due to poorer JS execution speeds"
+            }
+          ]
+        }
+      },
+      "cGradeSupportDetails": {
+        "giantLetterGrade": {
+          "letterGrade": "C",
+          "gradeSubtitle": "Grade",
+          "gradeFooter": "Support"
+        },
+        "percentageCoverage": {
+          "coverageHeading": "Less than",
+          "percentageCoverage": "2.5%",
+          "coverageSubtitle": "UK Coverage",
+          "coverageFooter": "(Jan 2018)"
+        },
+        "experienceParagraph": {
+          "experienceDescription": "Slightly Degraded Experience",
+          "experienceBulletPoints": [
+            {
+              "bulletPoint": "The site will function but not be as \"slick\" as 'A' or 'B' grade browsers"
+            },
+            {
+              "bulletPoint": "All content will be present and viewable"
+            },
+            {
+              "bulletPoint": "Some layouts may be impacted due to the level of css rendering in these browsers"
+            },
+            {
+              "bulletPoint": "There will be no desktop responsive features"
+            }
+          ]
+        },
+        "additionalText": "These Browsers either don't support many modern web standards, or have an incorrect implementation. Individual cases can be discussed, but usually it is at this point where the cost to improve the experience nearer to a 'B' grade often outweighs the probable ROI."
+      },
+      "gradingHeading": {
+        "heading": "Browser Support Grading",
+        "paragraph1": "We have grouped our levels of support for Browsers into the categories below. These gradings have been made to ensure that we can continue to provide great experiences for the most amount of people."
+      },
+      "gradingSummaryTitle": "Grading Summary",
+      "gradingSummaryTable": [
+        {
+          "gradeA": "Grade A",
+          "gradeAPercentage": "87",
+          "gradeB": "Grade B",
+          "gradeBPercentage": "9",
+          "gradeC": "Grade C",
+          "gradeCPercentage": "4"
+        }
+      ],
+      "navBar": [
+        {
+          "navItem": "Grade A",
+          "navLink": "#AGrade"
+        },
+        {
+          "navItem": "Grade B",
+          "navLink": "#BGrade"
+        },
+        {
+          "navItem": "Grade C",
+          "navLink": "#CGrade"
+        },
+        {
+          "navItem": "Minimal ",
+          "navLink": "#MinimalSupport"
+        }
+      ],
+      "glossary": [
+        {
+          "glossaryArticleTitle": "Browser",
+          "glossaryArticle": " - A software application for retrieving, presenting and traversing content on the world wide web. Some popular browsers are Google Chrome, Firefox, Safari and Internet Explorer."
+        },
+        {
+          "glossaryArticleTitle": "Responsive Web Design",
+          "glossaryArticle": " - A web design/development approach focused on flexibility for optimal viewing experiences across a wide range of devices. A responsive web page will respond to the screen size of the device being used."
+        },
+        {
+          "glossaryArticleTitle": "CSS",
+          "glossaryArticle": " - Cascading Style Sheets. A style sheet computer language used to write formatting instructions. These instructions tell the web browser how the web page should look in terms of layout, position, alignment, height, width, etc."
+        },
+        {
+          "glossaryArticleTitle": "Progressive Enhancement ",
+          "glossaryArticle": " - Where the technology doesn't allow, advanced features will fallback for unsupportive browsers. This means in older browsers, advanced features eg CSS transitions and rounded corners may not be shown."
+        }
+      ],
+      "glossaryTitle": "Glossary",
+      "glossaryParagraph": "This is a quick Glossary to help you understand any developer terms or words used on this page.",
+      "minimalSupportSection": {
+        "subheading": {
+          "subheadingTop": "Minimal",
+          "subheadingBottom": "Support"
+        },
+        "percentageCoverage": {
+          "coverageHeading": "Less than",
+          "percentageCoverage": "0.5%",
+          "coverageSubtitle": "UK Coverage",
+          "coverageFooter": "(July 2015)"
+        },
+        "experienceParagraph": {
+          "experienceDescription": "Older browsers that fall way short of modern web standards",
+          "experienceBulletPoints": [
+            {
+              "bulletPoint": "Content will be visible but we cannot provide support for layout or usability"
+            },
+            {
+              "bulletPoint": "We recommend that you display a branded message asking your users to upgrade their browsers"
+            }
+          ]
+        },
+        "additionalText": ""
+      }
+    },
+    "_links": {}
+  },
+  {
+    "id": 243,
+    "date": "2022-09-14T17:02:49",
+    "date_gmt": "2022-09-14T16:02:49",
+    "guid": {
+      "rendered": "http://mywordpress.local/?p=243"
+    },
+    "modified": "2022-09-27T15:54:05",
+    "modified_gmt": "2022-09-27T14:54:05",
+    "slug": "hero",
+    "status": "publish",
+    "type": "post",
+    "link": "http://mywordpress.local/hero/243/",
+    "title": {
+      "rendered": "Hero Section"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [1],
+    "tags": [],
+    "acf": {
+      "heroImage": "http://mywordpress.local/wp-content/uploads/2022/09/heroBrowser.png",
+      "logo": "http://mywordpress.local/wp-content/uploads/2022/09/383Logo.png",
+      "icon": "http://mywordpress.local/wp-content/uploads/2022/09/browsingExample.png",
+      "suptitle": "A guide to"
+    },
+    "_links": {}
+  },
+  {
+    "id": 240,
+    "date": "2022-09-14T16:59:55",
+    "date_gmt": "2022-09-14T15:59:55",
+    "guid": {
+      "rendered": "http://mywordpress.local/?p=240"
+    },
+    "modified": "2022-09-27T15:46:58",
+    "modified_gmt": "2022-09-27T14:46:58",
+    "slug": "browser-usage-table",
+    "status": "publish",
+    "type": "post",
+    "link": "http://mywordpress.local/browser-usage-table/240/",
+    "title": {
+      "rendered": "Browser Usage Table"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [1],
+    "tags": [],
+    "acf": {
+      "heroImage": false,
+      "logo": false,
+      "icon": false,
+      "suptitle": ""
+    },
+    "_links": {}
+  }
+]

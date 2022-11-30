@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+:root {
+  --primary-blue: #43b8ed;
+  --secondary-blue: #396c8f;
+  --primary-red: #cc3232;
+  --primary-purple: #a63293;
+  --primary-white: #fff;
+  --primary-grey: #ececec;
+  /* //base color */
+  --tertiary-grey: #d6d5d5;
+  /* //shadow color */
+  --quaternary-grey: #c0bebe;
+  --secondary-grey: #898989;
+  --primary-black: #2b2b2b;
+  --secondary-black: #474646;
+  --primary-font-family: Georgia, "Times New Roman", Times, serif;
+  --secondary-font-family: "Pathway Gothic One", sans-serif;
+}
+html {
+  font-family: var(--primary-font-family);
+  font-size: 10px;
+  background-color: var(--primary-white);
+  scroll-behavior: smooth;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.redDot::after {
+  content: ".";
+  color: var(--primary-red);
+  font-size: 100%;
+}
+.greyText {
+  color: var(--secondary-grey);
+  font-size: 1.2rem;
+}
+::-webkit-scrollbar {
+  display: none;
+  background-color: var(--primary-white);
+}
+
+h1 {
+  font-size: 9rem;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 7rem;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+h3 {
+  font-size: 5rem;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+@media screen and (max-width: 1060px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+}
