@@ -16,7 +16,6 @@ import data from "../../../data/data.json";
 const data2 = data[0].acf;
 
 const BGradeSection = () => {
-  console.log(data2);
   const desktopTableData = data2.bGradeSupportTableDesktop;
   const mobileTableData = data2.bGradeSupportTableMobile;
   const gradeData = data2.bGradeSupportDetails;

@@ -24,7 +24,6 @@ export default function Home() {
         <CGradeSection />
         <MinimalSupportSubSection />
       </GradeWrapper>
-
       <GradingSummary />
       <Footer />
     </div>

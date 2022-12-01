@@ -1,30 +1,48 @@
-import React from "react";
+import React, {useState} from "react";
 import { GlossaryStyle } from "./glossary.style.js";
-import data from "../../data/data.json"
+import data from "../../data/data.json";
 
-const data2 = data;
+const glossaryData = data[0].acf;
 
-const Glossary = () => {
+export function ShowGlossary({ children }) {
+  const [showGlossary, setShowGlossary] = useState();
+
+  function toggle() {
+    setShowGlossary(!showGlossary);
+  }
+
+  var buttonText = showGlossary ? "Hide Glossary" : "Glossary";
 
   return (
-    <GlossaryStyle>
-      <div className="arrow" />
-      <h3>{data2.glossaryTitle}</h3>
-      <p className="glossaryTitleBold">{data2.glossaryParagraph}</p>
+    <div className="glossaryButton">
+      {showGlossary && children}
+      <a onClick={toggle}>{buttonText}</a>
+    </div>
+  );
+}
 
-      {data2.glossary.map((item, index) => {
-        return (
-          <div key={`glossaryItem${index}`}>
-            <p>
-              <span className="glossaryTitleBold">
-                {item.glossaryArticleTitle}
-              </span>
-              {item.glossaryArticle}
-            </p>
-          </div>
-        );
-      })}
-    </GlossaryStyle>
+const Glossary = () => {
+  return (
+    <ShowGlossary>
+      <GlossaryStyle>
+        <div className="arrow" />
+        <h3>{glossaryData.glossaryTitle}</h3>
+        <p className="glossaryTitleBold">{glossaryData.glossaryParagraph}</p>
+
+        {glossaryData.glossary.map((item, index) => {
+          return (
+            <div key={`glossaryItem${index}`}>
+              <p>
+                <span className="glossaryTitleBold">
+                  {item.glossaryArticleTitle}
+                </span>
+                {item.glossaryArticle}
+              </p>
+            </div>
+          );
+        })}
+      </GlossaryStyle>
+    </ShowGlossary>
   );
 };
 
