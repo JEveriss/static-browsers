@@ -1,8 +1,8 @@
-import React, {useState} from "react";
-import { GlossaryStyle } from "./glossary.style.js";
-import data from "../../data/data.json";
+import React, { useState, useContext } from "react";
+import { css } from "styled-components";
+import { GlossaryStyle, GlossaryButton } from "./glossary.style.js";
 
-const glossaryData = data[0].acf;
+import DataContext from "../../context/DataContext";
 
 export function ShowGlossary({ children }) {
   const [showGlossary, setShowGlossary] = useState();
@@ -11,25 +11,37 @@ export function ShowGlossary({ children }) {
     setShowGlossary(!showGlossary);
   }
 
-  var buttonText = showGlossary ? "Hide Glossary" : "Glossary";
+  var buttonText = showGlossary ? (
+    <p
+      css={css`
+        text-decoration: underline;
+      `}>
+      Hide Glossary
+    </p>
+  ) : (
+    <p>Glossary</p>
+  );
 
   return (
-    <div className="glossaryButton">
+    <GlossaryButton>
       {showGlossary && children}
       <a onClick={toggle}>{buttonText}</a>
-    </div>
+    </GlossaryButton>
   );
 }
 
 const Glossary = () => {
-  return (
+  const { data: glossaryData } = useContext(DataContext);
+  const { acf } = glossaryData;
+
+  return acf ? (
     <ShowGlossary>
       <GlossaryStyle>
         <div className="arrow" />
-        <h3>{glossaryData.glossaryTitle}</h3>
-        <p className="glossaryTitleBold">{glossaryData.glossaryParagraph}</p>
+        <h3>{acf.glossaryTitle}</h3>
+        <p className="glossaryTitleBold">{acf.glossaryParagraph}</p>
 
-        {glossaryData.glossary.map((item, index) => {
+        {acf.glossary.map((item, index) => {
           return (
             <div key={`glossaryItem${index}`}>
               <p>
@@ -43,7 +55,7 @@ const Glossary = () => {
         })}
       </GlossaryStyle>
     </ShowGlossary>
-  );
+  ) : null;
 };
 
 export default Glossary;

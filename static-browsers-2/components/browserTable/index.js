@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import DataContext from "../../context/DataContext";
 import { BrowserImg, BrowserBox, BrowserWrapper } from "./browserTable.style";
-import data from "../../data/data.json";
-
-const browserData = data[0].acf;
 
 const BrowserTable = () => {
-  return (
+  const { data: browserData } = useContext(DataContext);
+  const { acf } = browserData;
+
+  return acf ? (
     <BrowserWrapper>
-      <h2 className="redDot">{browserData.browserUsageTitle}</h2>
-      <p className="browserUsageParagraph">
-        {browserData.browserUsageParagraph1}
-      </p>
+      <h2 className="redDot">{acf.browserUsageTitle}</h2>
+      <p className="browserUsageParagraph">{acf.browserUsageParagraph1}</p>
       <BrowserBox>
-        {browserData.browserUsageTable?.map((browser, index) => {
+        {acf.browserUsageTable?.map((browser, index) => {
           return (
             <div className="browserCard" key={`browser${index}`}>
               {" "}
@@ -28,13 +27,13 @@ const BrowserTable = () => {
         })}
       </BrowserBox>
       <p className="sourceLink greyText">
-        {browserData.browserUsageSourceInfo} <br />
-        <a href={browserData.browserUsageSourceLink.url}>
-          {browserData.browserUsageSourceLink.url}
+        {acf.browserUsageSourceInfo} <br />
+        <a href={acf.browserUsageSourceLink.url}>
+          {acf.browserUsageSourceLink.url}
         </a>
       </p>
     </BrowserWrapper>
-  );
+  ) : null;
 };
 
 export default BrowserTable;

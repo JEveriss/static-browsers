@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   SectionWrapper,
   LeftSide,
@@ -6,62 +6,55 @@ import {
   MobileSectionWrapper,
 } from "./gradeSection.style";
 
-import GiantLetterGrade from "../../templates/giantLetterGradeTemplate/giantLetterGrade";
-import PercentageCoverage from "../../templates/percentageCoverageTemplate/percentageCoverage";
-import ExperienceTextBlock from "../../templates/experienceTextBlockTemplate/experienceTextBlock";
-import SupportTable from "../../templates/browserDesktopTable/supportTableTemplate";
-import SectionDivider from "../../utils/sectionDivider";
-import data from "../../data/data.json";
+import GiantLetterGrade from "../../sections/gradingSection/giantLetterGrade";
+import PercentageCoverage from "../../sections/gradingSection/percentageCoverage";
+import ExperienceTextBlock from "../../sections/gradingSection/experienceTextBlock";
+import SectionDivider from "../sectionDivider";
+import SupportTable from "../../sections/gradingSection/supportTable";
 
-const aGradeData = data[0].acf;
+import DataContext from "../../context/DataContext";
 
-aGradeSupportDetails
-aGradeSupportTableDesktop
+const GradeSection = () => {
+  const { data: letterGradeData } = useContext(DataContext);
+  const { acf } = letterGradeData;
 
+  return acf ? (
+    <>
+      <MobileSectionWrapper>
+        <SectionWrapper>
+          <LeftSide>
+            <GiantLetterGrade
+              letterGrade={letterData.letterGrade}
+              gradeSubtitle={letterData.gradeSubtitle}
+              gradeFooter={letterData.gradeFooter}
+            />
+            <PercentageCoverage
+              coverageHeading={coverageData.coverageHeading}
+              percentageActual={coverageData.percentageCoverage}
+              coverageSubtitle={coverageData.coverageSubtitle}
+              coverageFooter={coverageData.coverageFooter}
+            />
+          </LeftSide>
 
-const AGradeSection = () => {
+          <RightSide>
+            <ExperienceTextBlock
+              experienceBulletPoints={experienceData.experienceBulletPoints}
+              experienceDescription={experienceData.experienceDescription}
+            />
+          </RightSide>
+        </SectionWrapper>
 
-  const desktopTableData = data.aGradeSupportTableDesktop;
-  const mobileTableData = data.aGradeSupportTableMobile;
-  const gradeData = data.aGradeSupportDetails;
-
-  const letterData = gradeData.giantLetterGrade;
-  const coverageData = gradeData.percentageCoverage;
-  const experienceData = gradeData.experienceParagraph;
-
-  return (
-    <MobileSectionWrapper>
-      <SectionWrapper>
-        <LeftSide>
-          <GiantLetterGrade
-            letterGrade={letterData.letterGrade}
-            gradeSubtitle={letterData.gradeSubtitle}
-            gradeFooter={letterData.gradeFooter}
-          />
-          <PercentageCoverage
-            coverageHeading={coverageData.coverageHeading}
-            percentageActual={coverageData.percentageCoverage}
-            coverageSubtitle={coverageData.coverageSubtitle}
-            coverageFooter={coverageData.coverageFooter}
-          />
-        </LeftSide>
-
-        <RightSide>
-          <ExperienceTextBlock
-            experienceBulletPoints={experienceData.experienceBulletPoints}
-            experienceDescription={experienceData.experienceDescription}
-          />
-        </RightSide>
-      </SectionWrapper>
-
-      <SupportTable
-        desktopData={desktopTableData}
-        mobileData={mobileTableData}
-      />
-      <div id="BGrade" />
-      <SectionDivider />
-    </MobileSectionWrapper>
+        <SupportTable
+          desktopData={desktopTableData}
+          mobileData={mobileTableData}
+        />
+        <div id="BGrade" />
+        <SectionDivider />
+      </MobileSectionWrapper>
+    </>
+  ) : (
+    <h1>NOT WORKING YET :(</h1>
   );
 };
 
-export default AGradeSection;
+export default GradeSection;

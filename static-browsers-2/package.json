@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "serve": "serve out/"
   },
   "dependencies": {
     "eslint": "8.28.0",
@@ -14,6 +16,7 @@
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "serve": "^14.1.2",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
