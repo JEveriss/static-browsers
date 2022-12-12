@@ -34,7 +34,7 @@ export const SupportWrapper = styled.div`
     text-align: center;
     width: 85%;
   }
-  div {
+div {
     display: flex;
     margin: 0 auto;
     width: 85%;

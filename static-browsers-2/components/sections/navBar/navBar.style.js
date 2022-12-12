@@ -14,6 +14,7 @@ export const NavWrapper = styled.nav`
   @media screen and (max-width: 630px) {
     display: none;
   }
+
   .navIcon {
     max-height: 3rem;
     max-width: 3rem;
