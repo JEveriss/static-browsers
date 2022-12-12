@@ -9,7 +9,7 @@ const Hero = () => {
   return acf ? (
     <div>
       <HeroSection img={acf.heroImage}>
-        <div className="heroContent">
+        <div className="heroContent" id="home">
           <img className="hero383Logo" src={acf.logo} />
           <img className="heroIcon" src={acf.icon} />
           <p className="heroSuptitle">{acf.suptitle}</p>
