@@ -5,6 +5,9 @@ export const PercentageCoverageStyle = styled.div`
   display: flex;
   flex-direction: column;
   line-height: 0.8;
+  @media screen and (max-width: 660px) {
+    padding: 4rem 0 2rem 0;
+  }
 
   .heading {
     font-family: var(--secondary-font-family);

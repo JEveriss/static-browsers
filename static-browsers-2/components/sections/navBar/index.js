@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return acf ? (
     <NavWrapper>
-      <div>
+      <div >
         <img className="navIcon" alt="383 Logo" src={acf.logo} />
       </div>
       {acf.navBar.map((item, index) => {

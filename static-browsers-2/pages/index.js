@@ -9,7 +9,7 @@ import AGradeSection from "../components/sections/gradingSection/grades/aGrade";
 import BGradeSection from "../components/sections/gradingSection/grades/bGrade";
 import CGradeSection from "../components/sections/gradingSection/grades/cGrade";
 import MinimalSupportSubSection from "../components/sections/minimalSupport";
-import GradeWrapper from "../components/sections/gradingSection/GradeWrapper/gradeWrapper.style"
+import GradeWrapper from "../components/sections/gradingSection/GradeWrapper/gradeWrapper.style";
 import DataContext from "../context/DataContext";
 import GradingSummary from "../components/sections/gradingSection/gradingSummary";
 

@@ -16,7 +16,7 @@ export function ShowGlossary({ children }) {
       css={css`
         text-decoration: underline;
       `}>
-      Hide Glossary
+      Glossary
     </p>
   ) : (
     <p>Glossary</p>

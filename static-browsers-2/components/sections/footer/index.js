@@ -8,13 +8,21 @@ const Footer = () => {
   return acf ? (
     <>
       <FooterWrapper>
-        <div>
-          <a target="_blank" href="https://www.383project.com/">
-            <img className="footerIcon" src={acf.logo} />
-          </a>
-          {/* <button>
-            <a href={"#TopOfPage"}>scroll2top</a>
-          </button> */}
+        <div className="parent">
+          <div className="child"/>
+          <div className="child">
+            <a target="_blank" href="https://www.383project.com/">
+              <img className="footerIcon" src={acf.logo} />
+            </a>
+          </div>
+          <div className="child">
+            {" "}
+            <div className="buttonWrapper">
+              <button>
+                <a href={"#home"}>Scroll to Top</a>
+              </button>
+            </div>
+          </div>
         </div>
       </FooterWrapper>
     </>
