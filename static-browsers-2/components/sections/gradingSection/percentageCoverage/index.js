@@ -2,10 +2,10 @@ import React from "react";
 import { PercentageCoverageStyle } from "./percentageCoverage.style";
 
 const PercentageCoverage = ({
-  coverageHeading,
-  percentageActual,
-  coverageSubtitle,
   coverageFooter,
+  coverageHeading,
+  coverageSubtitle,
+  percentageActual,
 }) => {
   return (
     <PercentageCoverageStyle>

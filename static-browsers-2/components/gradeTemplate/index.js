@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import {
-  SectionWrapper,
   LeftSide,
-  RightSide,
   MobileSectionWrapper,
+  RightSide,
+  SectionWrapper,
 } from "./gradeSection.style";
 
+import ExperienceTextBlock from "../../sections/gradingSection/experienceTextBlock";
 import GiantLetterGrade from "../../sections/gradingSection/giantLetterGrade";
 import PercentageCoverage from "../../sections/gradingSection/percentageCoverage";
-import ExperienceTextBlock from "../../sections/gradingSection/experienceTextBlock";
 import SectionDivider from "../sectionDivider";
 import SupportTable from "../../sections/gradingSection/supportTable";
 

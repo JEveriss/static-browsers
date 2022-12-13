@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
 import { GradingSectionHeadingWrapper } from "./gradingSectionHeading.style";
+
 import DataContext from "../../../../context/DataContext";
 
 const GradingSectionHeading = () => {
   const { data: sectionData } = useContext(DataContext);
   const { acf } = sectionData;
+
   return acf ? (
     <>
       <GradingSectionHeadingWrapper>

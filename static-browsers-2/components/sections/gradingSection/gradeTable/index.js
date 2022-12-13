@@ -3,11 +3,11 @@ import { GradeTable, TableData } from "./gradeTable.style";
 
 const GradeTableTemplate = ({
   color,
-  tableHeadingIcon,
-  columnHeadingLeft,
   columnDataLeft,
-  columnHeadingRight,
   columnDataRight,
+  columnHeadingLeft,
+  columnHeadingRight,
+  tableHeadingIcon,
 }) => {
   return (
     <GradeTable>

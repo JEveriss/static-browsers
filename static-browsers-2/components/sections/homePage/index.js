@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
-import BrowserTable from "../../../components/browserTable/index.js";
-import { ChartWrapper, HomeWrapper } from "./homePage.style.js";
+import { ChartWrapper, HomeWrapper } from "./homePage.style";
+
+import BrowserTable from "../../../components/browserTable";
 import BarChart from "../../../components/barChart";
-import DataContext from "../../../context/DataContext.js";
+
+import DataContext from "../../../context/DataContext";
 
 const HomePage = () => {
   const { data: chartData } = useContext(DataContext);

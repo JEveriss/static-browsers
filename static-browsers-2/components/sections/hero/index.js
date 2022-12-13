@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { HeroSection } from "./hero.style";
+
 import DataContext from "../../../context/DataContext";
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
   return acf ? (
     <div>
       <HeroSection img={acf.heroImage}>
-        <div className="heroContent" id="home">
+        <div className="heroContent" id="Top">
           <img className="hero383Logo" src={acf.logo} />
           <img className="heroIcon" src={acf.icon} />
           <p className="heroSuptitle">{acf.suptitle}</p>

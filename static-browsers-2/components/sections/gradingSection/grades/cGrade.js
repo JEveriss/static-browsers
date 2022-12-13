@@ -1,18 +1,20 @@
 import React, { useContext } from "react";
+
 import {
-  SectionWrapper,
   LeftSide,
-  RightSide,
   MobileSectionWrapper,
+  RightSide,
+  SectionWrapper,
   SubTextBox,
 } from "./gradeGlobal.style.js";
 
+import ExperienceTextBlock from "../experienceTextBlock";
 import GiantLetterGrade from "../giantLetterGrade";
 import PercentageCoverage from "../percentageCoverage";
-import ExperienceTextBlock from "../experienceTextBlock";
+import SectionDivider from "../../../sectionDivider/index";
 import SupportTable from "../supportTable";
-import SectionDivider from "../../../sectionDivider/index.js";
-import DataContext from "../../../../context/DataContext.js";
+
+import DataContext from "../../../../context/DataContext";
 
 const CGradeSection = () => {
   const { data: tableData } = useContext(DataContext);

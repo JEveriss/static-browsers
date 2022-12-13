@@ -38,6 +38,7 @@ export const Chart = styled.div`
     }
   }
 `;
+
 export const ChartBase = styled.div`
   background-color: var(--tertiary-grey);
   bottom: -1rem;

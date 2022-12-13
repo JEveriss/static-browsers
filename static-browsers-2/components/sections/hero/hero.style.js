@@ -9,14 +9,12 @@ export const HeroSection = styled.div`
   color: var(--primary-white);
   margin-top: -5rem;
   padding: 0 4rem;
-
   @media screen and (max-width: 420px) {
     padding: 0 2rem;
     .heroTitle {
       font-size: 5rem;
     }
   }
-
   p {
     font-size: 2rem;
   }
