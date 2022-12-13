@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const FooterWrapper = styled.div`
   background-color: var(--primary-black);
   display: flex;
-  height: 7rem;
+  height: 6rem;
   width: 100vw;
-
   button {
     background-color: var(--secondary-black);
     border: none;
@@ -14,19 +13,16 @@ export const FooterWrapper = styled.div`
     a {
       color: var(--primary-white);
       font-family: var(--primary-font-family);
-      font-size: 2rem;
       text-decoration: none;
     }
     @media screen and (max-width: 630px) {
       display: none;
     }
   }
-
   .footerIcon {
     max-height: 4rem;
     max-width: 4rem;
   }
-
   .parent {
     align-items: center;
     display: flex;
@@ -34,7 +30,6 @@ export const FooterWrapper = styled.div`
     text-align: center;
     width: 100%;
   }
-
   .child {
     min-width: 33%;
   }

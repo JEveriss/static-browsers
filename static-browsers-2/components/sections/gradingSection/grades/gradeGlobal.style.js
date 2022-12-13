@@ -40,7 +40,7 @@ export const RightSide = styled.div`
 `;
 
 export const SubTextBox = styled.div`
- margin: 8rem auto 0 auto;
+  margin: 8rem auto 0 auto;
   text-align: center;
   max-width: 60rem;
 `;

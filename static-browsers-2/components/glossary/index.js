@@ -40,7 +40,6 @@ const Glossary = () => {
         <div className="arrow" />
         <h3>{acf.glossaryTitle}</h3>
         <p className="glossaryTitleBold">{acf.glossaryParagraph}</p>
-
         {acf.glossary.map((item, index) => {
           return (
             <div key={`glossaryItem${index}`}>

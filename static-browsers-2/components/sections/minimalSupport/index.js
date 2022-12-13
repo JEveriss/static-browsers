@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { SupportWrapper } from "./minimalSupport.style";
+
 import PercentageCoverage from "../gradingSection/percentageCoverage";
 import ExperienceTextBlock from "../gradingSection/experienceTextBlock";
 

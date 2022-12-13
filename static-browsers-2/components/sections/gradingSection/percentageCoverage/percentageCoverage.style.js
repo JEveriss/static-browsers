@@ -8,7 +8,6 @@ export const PercentageCoverageStyle = styled.div`
   @media screen and (max-width: 660px) {
     padding: 4rem 0 2rem 0;
   }
-
   .heading {
     font-family: var(--secondary-font-family);
     font-size: 3.3rem;

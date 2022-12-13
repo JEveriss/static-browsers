@@ -1,6 +1,6 @@
 import React from "react";
-import { Chart, ChartBase } from "./barChart.style";
 import { css } from "styled-components";
+import { Chart, ChartBase } from "./barChart.style";
 
 const ChartColumn = ({ label, percentage, className }) => {
   return (

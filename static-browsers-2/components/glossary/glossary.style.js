@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const GlossaryButton = styled.div`
   position: relative;
 `;
+
 export const GlossaryStyle = styled.div`
   background-color: var(--primary-grey);
   border-radius: 2%;

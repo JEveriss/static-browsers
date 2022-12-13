@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
-import DataContext from "../../context/DataContext";
 import { BrowserImg, BrowserBox, BrowserWrapper } from "./browserTable.style";
+
+import DataContext from "../../context/DataContext";
 
 const BrowserTable = () => {
   const { data: browserData } = useContext(DataContext);

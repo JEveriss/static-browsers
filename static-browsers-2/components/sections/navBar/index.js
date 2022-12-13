@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { NavWrapper } from "./navBar.style";
+
 import Glossary from "../../../components/glossary";
 
 import DataContext from "../../../context/DataContext";
@@ -7,10 +8,10 @@ import DataContext from "../../../context/DataContext";
 const NavBar = () => {
   const { data: navData } = useContext(DataContext);
   const { acf } = navData;
-
+console.log(acf)
   return acf ? (
     <NavWrapper>
-      <div >
+      <div>
         <img className="navIcon" alt="383 Logo" src={acf.logo} />
       </div>
       {acf.navBar.map((item, index) => {
