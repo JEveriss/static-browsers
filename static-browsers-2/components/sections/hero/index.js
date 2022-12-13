@@ -10,7 +10,8 @@ const Hero = () => {
   return acf ? (
     <div>
       <HeroSection img={acf.heroImage}>
-        <div className="heroContent" id="Top">
+      <div id="Top"/>
+        <div className="heroContent" >
           <img className="hero383Logo" src={acf.logo} />
           <img className="heroIcon" src={acf.icon} />
           <p className="heroSuptitle">{acf.suptitle}</p>

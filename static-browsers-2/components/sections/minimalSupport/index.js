@@ -12,7 +12,7 @@ const MinimalSupportSubSection = () => {
 
   return acf ? (
     <SupportWrapper>
-      <div className="minSupportLeftSide">
+      <div id="MinimalSupport" className="minSupportLeftSide">
         <div className="minSupportTitle">
           <h3>
             <span>{acf.minimalSupportSection.subheading.subheadingTop}</span>

@@ -12,7 +12,7 @@ const GradingSectionHeading = () => {
       <GradingSectionHeadingWrapper>
         <h2 className="redDot">{acf.gradingHeading.heading}</h2>
         <p>
-          {acf.gradingHeading.paragraph1} <span id="AGrade"></span>
+          {acf.gradingHeading.paragraph1}
         </p>
       </GradingSectionHeadingWrapper>
     </>

@@ -7,14 +7,19 @@ export const FooterWrapper = styled.div`
   width: 100vw;
   button {
     background-color: var(--secondary-black);
-    border: none;
     border-radius: 0.5rem;
+    border: none;
+    color: var(--primary-white);
+    cursor: pointer;
+    font-family: var(--primary-font-family);
     padding: 1rem 2rem;
-    a {
-      color: var(--primary-white);
-      font-family: var(--primary-font-family);
-      text-decoration: none;
+    text-decoration: none;
+    :hover {
+      background-color: var(--primary-black);
+      border: solid 2px var(--secondary-black);
+      box-sizing: content-box;
     }
+
     @media screen and (max-width: 630px) {
       display: none;
     }

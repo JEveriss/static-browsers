@@ -5,14 +5,12 @@ import NavBar from "../components/sections/navBar";
 import Hero from "../components/sections/hero";
 import HomePage from "../components/sections/homePage";
 import GradingSectionHeading from "../components/sections/gradingSection/gradingSectionHeading";
-import AGradeSection from "../components/sections/gradingSection/grades/aGrade";
-import BGradeSection from "../components/sections/gradingSection/grades/bGrade";
-import CGradeSection from "../components/sections/gradingSection/grades/cGrade";
 import MinimalSupportSubSection from "../components/sections/minimalSupport";
 import GradingSummary from "../components/sections/gradingSection/gradingSummary";
 import Footer from "../components/sections/footer";
 
 import DataContext from "../context/DataContext";
+import GradeSection from "../components/sections/gradingSection/grades/grade";
 
 export default function Home() {
   const [data, setData] = useState({});
@@ -41,10 +39,31 @@ export default function Home() {
         <HomePage />
         <GradeWrapper>
           <GradingSectionHeading />
-          <AGradeSection />
-          <BGradeSection />
-          <CGradeSection />
+          {data.acf ? (
+            <>
+              <GradeSection
+                gradeSupportDetails={data.acf.aGradeSupportDetails}
+                gradeSupportTableMobile={data.acf.aGradeSupportTableMobile}
+                gradeSupportTableDesktop={data.acf.aGradeSupportTableDesktop}
+                letter={"A"}
+              />
+              <GradeSection
+                gradeSupportDetails={data.acf.bGradeSupportDetails}
+                gradeSupportTableMobile={data.acf.bGradeSupportTableMobile}
+                gradeSupportTableDesktop={data.acf.bGradeSupportTableDesktop}
+                letter={"B"}
+              />
+              <GradeSection
+                gradeSupportDetails={data.acf.cGradeSupportDetails}
+                gradeSupportTableMobile={data.acf.cGradeSupportTableMobile}
+                gradeSupportTableDesktop={data.acf.cGradeSupportTableDesktop}
+                letter={"C"}
+              />
+            </>
+          ) : null}
+
           <MinimalSupportSubSection />
+          
         </GradeWrapper>
         <GradingSummary />
         <Footer />
